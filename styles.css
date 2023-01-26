@@ -1,0 +1,184 @@
+/* COLOR LINK
+https://coolors.co/palette/22577a-38a3a5-57cc99-80ed99-c7f9cc 
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 33pt;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #C7F9CC;
+}
+#productlist{
+    padding-left: 45px;
+}
+#cantirelink,
+#dietlink,
+#wormnumlink,
+#productlink{
+    color: #57CC99;
+    margin: 25px;
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+#cantirelink:hover,
+#dietlink:hover,
+#wormnumlink:hover,
+#productlink:hover{
+    color: #C7F9CC;
+}
+#upcyclelink{
+    color: #57CC99;
+    font-weight: bold;
+    text-decoration: none;
+}
+#upcyclelink:hover{
+    color: #C7F9CC;
+}
+p{
+    margin: 25px;
+}
+.usedclothes{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/fastfashionbackground.webp);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.referencespage{
+    background-color: #22577A;
+    background-image: none;
+    font-size: 15pt;
+    line-height: 40px;
+}
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/backgroundimage.jpeg);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.upcycle{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/sewingsupplies.jpeg);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.lights{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/lightbackground1.webp);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.garden{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/gardenbackground.webp);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.plastics{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/plasticwastebackground.jpeg);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.diet{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/farmbackground.webp);
+    font-size: 17pt;
+    line-height: 37px;
+}
+.water{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/waterbackground.jpeg);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.dryclothes{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/clouds.jpeg);
+    font-size: 18pt;
+    line-height: 40px;
+}
+.transit{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/roadbackground.webp);
+    font-size: 18pt;
+    line-height: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/backgroundimage.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+#mainimg{
+    float: right;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    border: 6px solid #38A3A5;
+}
+.navbar{
+    list-style: none;
+    background-color: #38A3A5;
+}
+.navbar li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.navbar li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    line-height: 20px;
+}
+.navbar li a:hover{
+    transition: all 0.4s ease-in;
+    background-color: #C7F9CC;
+    color: #000000;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #38A3A5;
+}
+/* Clothing Dropdown Menu */
+.dropbtn {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: rgba(34, 87, 122, 0.03);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    line-height: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #38A3A5;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    transition: all 0.4s ease-in;
+    background-color: #C7F9CC;
+    color: #000000;
+}
